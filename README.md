@@ -1,8 +1,17 @@
 # solrj
 SolrJ
 
-Spring Boot + Spring Data Solr
+SolrClient.java
+================
+step 1 : C:\solr-8.3.0\bin>Solr start
 
+step 2: C:\solr-8.3.0\bin>Solr -e techproducts -p 8983
+
+step 3: run SolrClient
+
+
+Spring Boot + Spring Data Solr
+==============================
 Step 1: 
 
 C:\solr-8.3.0\bin>solr create_collection -c employee
@@ -13,4 +22,4 @@ Created new core 'employee'
 
 Step 2 : 
 
-Spring Data java using SolrCrudRepository<Employee, Integer> repository
+Spring Boot with spring Data using SolrCrudRepository<Employee, Integer> repository
